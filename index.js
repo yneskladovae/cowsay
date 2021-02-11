@@ -11,7 +11,7 @@ let callback = function(error, response, body){
         if (response.statusCode === 200) {
             console.log(cowsay.say({
                 text: body,
-                e: "Oo",
+                e: "oO",
                 T: "U"
             })
             );
